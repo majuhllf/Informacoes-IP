@@ -41,7 +41,7 @@ btnSearch.addEventListener('click', async () => {
         console.error("Detalhes do erro:", error);
         alert("Erro: " + error.message);
     }
-}); // <--- ESSA CHAVE ESTAVA FALTANDO!
+});
 
 // Função para remover a linha
 function removeRow(button) {
