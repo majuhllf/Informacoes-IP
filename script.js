@@ -11,7 +11,6 @@ btnSearch.addEventListener('click', async () => {
     }
 
     try {
-        // Usando ipapi.co para teste (não precisa de token)
         const response = await fetch(`https://ipapi.co/${ip}/json/`);
         
         if (!response.ok) {
