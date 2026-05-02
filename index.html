@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP API - Consulta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>IP API</h1>
+        
+        <div class="search-box">
+            <input type="text" id="ipInput" placeholder="8.8.8.8">
+            <button id="btnSearch">Pesquisar</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>IP</th>
+                    <th>Org</th>
+                    <th>Country</th>
+                    <th>City</th>
+                    <th>Clear</th>
+                </tr>
+            </thead>
+            <tbody id="resultTable">
+                </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
